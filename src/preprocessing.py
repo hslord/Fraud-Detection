@@ -79,10 +79,7 @@ def preprocessing(df):
 
 
 if __name__ == '__main__':
-
-    # df = pd.read_json(u'/Users/brendanwong/galvanize/team-case-study-repos/dsi-fraud-detection-case-study/example.copy.json')
-    df = pd.read_json(
-        u'/Users/hslord/galvanize/dsi-fraud-detection-case-study/data/data.json')
+    df = pd.read_json(../data/data.json')
 
     df = preprocessing(df)
 
